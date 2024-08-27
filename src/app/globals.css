@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .leaf-design {
+    @apply rounded-br-2xl rounded-tl-2xl;
+  }
+  .leaf {
+    @apply py-1 px-5 rounded-br-3xl rounded-tl-3xl;
+  }
+  .category-item {
+    @apply py-1 px-2.5 bg-[#62C3C6]/30 rounded-[4px] text-center;
+  }
+  .pagination-item {
+    @apply text-lg font-semibold cursor-pointer;
+  }
+  .page-arrows {
+    @apply text-[#62C3C6] cursor-pointer;
+  }
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+.thumb {
+  width: 16px;
+  height: 20px;
+  cursor: pointer;
+  background-color: #62c3c6;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  top: -10px;
+}
+
+.track-1 {
+  background-color: #62c3c6;
+  height: 4px;
+}
+
+.thumb-1 {
+  margin-left: 10px;
+}
